@@ -237,3 +237,56 @@
 
 
 /*  company-details-end */
+
+/* testimonila-starts-here */
+
+.testimonial{
+    width:85vw;
+    margin:auto;
+}
+.wall-of-love{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .students{
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+} */
+
+.social-icon{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: ;
+}
+.ms-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.virat-kohli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.students{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-student{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin:10px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding:10px;
+    justify-content: space-between;
+
+}
+
+
+
+/* testimonila-ends-here */
