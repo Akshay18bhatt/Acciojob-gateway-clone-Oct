@@ -1,0 +1,239 @@
+
+
+/* nav-start */
+.nav-row-1{
+    display: flex;
+    padding:15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-row-1-col-1{
+    display: flex;
+    margin-left: 80px;
+}
+
+.verticle-line{
+    border-left: 2px solid lightgrey;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1px;
+}
+.nav-row-1-col-2{
+    display: flex;
+    align-items: center;
+}
+.nav-row-1-col-2>ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-row-1-col-2>ul>li{
+    margin-right: 55px;
+}
+/* nav-end */
+
+/* hero-start */
+
+.hero-section{
+    flex: 1;
+    width: 100%;
+    height: 80vh;
+    border-bottom: 2px solid black;
+}
+.my-hero{
+    width:80vw;
+    margin:auto;
+    margin-top: 80px ;
+    
+    display: flex;
+}
+.hero-col-1{
+    display: flex;
+    justify-content: space-between;
+    flex:.7;
+    height:500px;
+    flex-direction: column;
+}
+.hero-col-2{
+    display: flex;
+    flex:.3;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px lightgray;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column ;
+}
+#lakhs{
+    display: flex;
+    border:1px solid lightgray;
+    height:80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px lightgray;
+    padding: 10px;
+    width: fit-content;
+}
+#lakhs>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+#lakhs p{
+    /* line-height: 5px; */
+}
+#lakhs img{
+    margin-right: 10px;
+    width: 40px;
+}
+.hero-col-1-div-1{
+    display: flex;
+    height:70%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero-col-1-div-1>h6{
+    color:#595959;
+    
+}
+.hero-col-1-div-1 p{
+    color:#595959;
+    
+}
+.register-btn{
+    width:90%;
+    background-color: #1583f9;
+    color:white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#2f80ed,#992fed);
+}
+.input{
+    width:90%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid lightgray;
+    background-color: #fafafa;
+}
+.input>input{
+    border:none;
+    background-color: transparent;
+}
+
+.hero-col-1-div-2{
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0px 0px 20px lightgray;
+    width:fit-content;
+    border: 1px solid lightgray;
+}
+
+/* hero-end */
+
+/* courses-start */
+
+.course-section{
+    flex: 1;
+    width:100%;
+    height: 60vw !important; 
+    height:1000px;
+    background-color: #ecf8ff;
+    border: none;
+}
+.courses{
+    width:65vw;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.courses-div-1{
+    display: flex;
+    padding:70px;   
+    background-color:transparent ;
+    justify-content: center;
+    text-align: center;
+}
+#learn-full-stack{
+    color: #992fed;
+    font-size: 22px;
+}
+
+.courses-div-2{
+    display: flex;
+    /* width:70vw !important; */
+}
+.BI-program{
+    flex: .5;
+    display: flex;
+    border-radius: 10px;
+    height:600px;
+    margin-left: 40px;
+    padding: 25px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.details{
+    width: 100%;
+    padding:15px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.beginner-div-1,.intermediate-div-1{
+    text-align: center;
+}
+.beginner-div-1>p,.intermediate-div-1>p{
+    font-size: 13px;
+    color:gray;
+}
+
+.jobG{
+    display: flex ;
+    justify-content: space-around !important;
+    padding:10px;
+}
+.jobB{
+    background-color: #e0f3ff;
+    border-radius: 20px;
+    color:#1d78b0;
+    font-size: 13px;
+}
+.jobI{
+    background-color: #ffeed8;
+    border-radius: 20px;
+    font-size: 13px;
+    color:#965400;
+
+}
+#inter-box-color{
+    border: 1px solid #e2e2e2;
+}
+
+
+
+
+/* courses-end */
+
+/*  company-details-start */
+
+.company-details{
+    width:85vw;
+    margin:auto;
+}
+.partner-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partner-container{
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+
+
+/*  company-details-end */
