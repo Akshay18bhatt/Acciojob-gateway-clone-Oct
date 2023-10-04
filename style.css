@@ -344,7 +344,7 @@ header{
 /* testimonila-ends-here */
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:900px){
     header{
         position: static;
     }
@@ -385,8 +385,7 @@ header{
         width: 90vw;
     }
     .hero-col-1-div-2{
-        margin-top: 20px !important;
-        margin-bottom: 20px !important;
+        d
     }
     .hero-col-2{
         width: 80vw !important;
@@ -413,6 +412,12 @@ header{
     }
     .courses-div-1{
         padding:0px;
+    }
+    .partner-container{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 
