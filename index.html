@@ -13,20 +13,20 @@
         <nav>
             <div class="nav-row-1">
                 <div class="nav-row-1-col-1">
-                    <img src="./acciojob-page-images/accio-logo.svg" alt="accio-logo">
+                    <a href="#"><img src="./acciojob-page-images/accio-logo.svg" alt="accio-logo"></a>
                     <div class="verticle-line"></div>
                     <img src="./acciojob-page-images/nsdc-logo.svg" alt="nsdc-logo">
                 </div>
 
                 <div class="nav-row-1-col-2">
                     <ul>
-                        <li>Courses <img src="./acciojob-page-images/Arrow.svg" alt="dorpdown-arrow"></li>
-                        <li>Acciojob Reviews</li>
-                        <li>Scholarship Test</li>
-                        <li>More <img src="./acciojob-page-images/Arrow.svg" alt="dorpdown-arrow"></li>
+                        <li><a href="#my-courses">Courses <img src="./acciojob-page-images/Arrow.svg" alt="dorpdown-arrow"></a></li>
+                        <li><a href="#my-reviews">Acciojob Reviews</a></li>
+                        <li><a href="#my-test">Scholarship Test</a></li>
+                        <li><a href="#my-more">More <img src="./acciojob-page-images/Arrow.svg" alt="dorpdown-arrow"></a></li>
                         
                     </ul>
-                    <button class="btn text-primary btn-outline-primary border-2 me-5 px-4">Login</button>
+                    <a href="#"><button class="btn text-primary btn-outline-primary border-2 me-5 px-4">Login</button></a>
                 </div>
             </div>
             <div class="nav-row-2 bg-primary text-white text-center">
@@ -40,10 +40,10 @@
             <div class="my-hero">
                 <div class="hero-col-1">
                     <div class="hero-col-1-div-1">
-                        <h1>Launch your carrer with our<br>
-                        <span class="text-primary">Full Stack Developer</span> <span class="fw-bold">Courses</span></h1>
+                        <h1 class="mb-4"><i>Launch your carrer with our<br>
+                        <span id="full-stack-stroke">Full Stack Developer</span> <span class="fw-bold">Courses</span></h1>
                         <h6>Curriculum designed and taught by Alumni from IIT' s &<br>
-                        Leading Tech Companies.</h6>
+                        Leading Tech Companies.</i></h6>
                         <div id="lakhs">
                             <div>
                                 <img src="./acciojob-page-images/41-lakhs.svg"> 
@@ -77,8 +77,8 @@
                     </div>
                     <div class="hero-col-1-div-2">Made with <i class="fa-solid fa-heart" style="color: #1583f9;"></i> by an Acciojob Student</div>
                 </div>
-                <div class="hero-col-2 card">
-                    <div class="text-center">
+                <div class="hero-col-2 card" id="my-test">
+                    <div class="text-center mt-4">
                         <h2 >Start Attending Live<br>Classes for Free!</h2>
                         <p>Live lectures & Assignments curated by<br>Top Tech Proffesionals</p>
                     </div>
@@ -94,8 +94,8 @@
             </div>
         </section>
 
-        <section class="course-section">
-            <div class="courses">
+        <section class="course-section" id="my-courses">
+            <div class="courses" >
                 <div class="courses-div-1">
                     <div>
                         <p id="learn-full-stack"><i>LEARN FULL-STACK WEB DEVELOPMENT </i></p>
@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section class="partners">
+        <section class="partners" id="my-more">
             <div class="company-details">
                 <div class="partner-div-1">
                     <span><i>OVER 300+ HIRING PARTNERS</i></span>
@@ -247,10 +247,12 @@
                     </figure>
 
                 </div>
-                <button class="btn bg-primary text-white px-5 py-2" >Placement Report <img src="./acciojob-page-images/right-arrow.svg"></button>
+                <div class="placement-btn">
+                    <button class="btn bg-primary text-white px-5 py-2" >Placement Report <img src="./acciojob-page-images/right-arrow.svg"></button>
+                </div>
             </div>
         </section>
-        <section class="testimonial-section">
+        <section class="testimonial-section" id="my-reviews">
             <div class="testimonial">
                 <div class="wall-of-love">
                     <h1><i>AccioJob Wall Of Love</i></h1>
@@ -282,14 +284,14 @@
                     <div class="main-student">
                         <div class="ms-div1">
                             <div class="virat-kohli">
-                                <img class="me-3" src="./acciojob-page-images/virat-kohli.svg">
+                                <img class="me-3" src="./acciojob-page-images/ishaan-kisan.svg">
                                 <div>
-                                    <h5>Virat Kohli</h5>
-                                    <p>SDE-II at Indian Cricket Board</p>
+                                    <h5>Ishaan Kisan</h5>
+                                    <p>Intern at Indian Cricket Board</p>
                                 </div>
                                 
                             </div>
-                            <div class="social-icon"><img src="./acciojob-page-images/LinkedIN.svg"></div>
+                            <div class="social-icon"><img src="./acciojob-page-images/Quora.svg"></div>
                             
 
                         </div>
@@ -304,9 +306,33 @@
                     <div class="main-student">
                         <div class="ms-div1">
                             <div class="virat-kohli">
-                                <img class="me-3" src="./acciojob-page-images/virat-kohli.svg">
+                                <img class="me-3" src="./acciojob-page-images/virendra-shehwag.svg">
                                 <div>
-                                    <h5>Virat Kohli</h5>
+                                    <h5>Virendra Shehwag</h5>
+                                    <p>SDE-IV at Indian Cricket Board</p>
+                                </div>
+                                
+                            </div>
+                            <div class="social-icon"><img src="./acciojob-page-images/LinkedIN.svg"></div>
+                            
+
+                        </div>
+                        <div class="ms-div2 mt-4 mb-4">
+                            <article>My Life changed when I became a part of the
+                                AccioJob family. Before that I was not able to
+                                score any centuries. As soon as I joined Accio,
+                                I hit a century against Afganistan. Then I got 
+                                offers from RCB for IPL as captain again. Bas
+                                ab India World Cup Jeet jaye.</article>
+                        </div>
+                        <p>June 14, 2022</p>
+                    </div>
+                    <div class="main-student">
+                        <div class="ms-div1">
+                            <div class="virat-kohli">
+                                <img class="me-3" src="./acciojob-page-images/rohit-sharma.svg">
+                                <div>
+                                    <h5>Rohit Sharma</h5>
                                     <p>SDE-II at Indian Cricket Board</p>
                                 </div>
                                 
@@ -319,7 +345,51 @@
                             <article>My Life changed when I became a part of the
                                 AccioJob family. Before that I was not able to
                                 score any centuries. As soon as I joined Accio,
-                                I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afganistan.</article>
+                                I hit a century against Afganistan. Then I got 
+                                offers from RCB for IPL as captain again. Bas
+                                ab India World Cup Jeet jaye.</article>
+                        </div>
+                        <p>June 14, 2022</p>
+                    </div>
+                    <div class="main-student">
+                        <div class="ms-div1">
+                            <div class="virat-kohli">
+                                <img class="me-3" src="./acciojob-page-images/sarfaraz.svg">
+                                <div>
+                                    <h5>Sarfaraz Ahmed</h5>
+                                    <p>WK at Pak. Cricket Board</p>
+                                </div>
+                                
+                            </div>
+                            <div class="social-icon"><img src="./acciojob-page-images/LinkedIN.svg"></div>
+                            
+
+                        </div>
+                        <div class="ms-div2 mt-4 mb-4">
+                            <article>My Life changed when I became a part of the
+                                AccioJob family. Before that I was not able to
+                                score any centuries.</article>
+                        </div>
+                        <p>June 14, 2022</p>
+                    </div>
+                    <div class="main-student">
+                        <div class="ms-div1">
+                            <div class="virat-kohli">
+                                <img class="me-3" src="./acciojob-page-images/sarfaraz.svg">
+                                <div>
+                                    <h5>Sachin Tendulkar</h5>
+                                    <p>God at Indian Cricket Board</p>
+                                </div>
+                                
+                            </div>
+                            <div class="social-icon"><img src="./acciojob-page-images/LinkedIN.svg"></div>
+                            
+
+                        </div>
+                        <div class="ms-div2 mt-4 mb-4">
+                            <article>My Life changed when I became a part of the
+                                AccioJob family. Before that I was not able to
+                                score any centuries.</article>
                         </div>
                         <p>June 14, 2022</p>
                     </div>
